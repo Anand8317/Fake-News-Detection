@@ -1,7 +1,5 @@
 from flask import Flask, render_template, request
 from nltk.stem.porter import PorterStemmer
-import nltk
-nltk.download('stopwords')
 from nltk.corpus import stopwords
 import pickle
 import re
